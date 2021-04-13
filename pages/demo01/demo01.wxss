@@ -1,0 +1,21 @@
+/* pages/demo01/demo01.wxss */
+.user{
+  padding: 10rpx 25rpx;
+  border: 1px solid #ddd;
+}
+.password{
+  margin-top: -1rpx;
+  padding: 10rpx 25rpx;
+  border: 1rpx solid #ddd;
+}
+.subitm{
+  background-color: rgb(95, 164, 255);
+  color: white;
+}
+.subitm-hover{
+  background-color: rgb(77, 130, 201);
+}
+.tltle{
+  font-size: small;
+  color: crimson;
+}

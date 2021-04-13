@@ -1,0 +1,64 @@
+/**index.wxss**/
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80rpx 0;
+  box-sizing: border-box;
+  /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+  background-color: dodgerblue;
+  /* background-color: white; */
+} 
+
+.box-foreground {
+  position: relative;
+  width: 500rpx;
+  height: 700rpx;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .3);
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(52, 199, 88);
+  background-color: rgb(236, 236, 236);
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.user-motto {
+  color: rgb(33, 163, 250);
+  display: inline-block;
+  padding: 10rpx 25rpx;
+  /* text-shadow:  1px 1px 2px 2px rgba(0, 0, 0, .3);; */
+}
+.user{
+  /* margin-top: 50rpx; */
+  padding: 10rpx 35rpx;
+  border: 1px #ddd solid;
+}
+.password{
+  padding: 10rpx 35rpx;
+  margin-top: -1rpx;
+  border: 1px #ddd solid;
+}
+.s{
+  margin-top: 80rpx;
+}
+.text{
+  margin: 25rpx 35rpx;
+  color: crimson;
+  font-size: 12px;
+}

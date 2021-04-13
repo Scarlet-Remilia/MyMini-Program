@@ -1,0 +1,12 @@
+<!--pages/demo01/demo01.wxml-->
+<view class="body">
+  <text class="tltle">{{logintText}}</text>
+  <form action="#" catchsubmit="formSubmit">
+    <input type="text" class="user" placeholder="请输入用户名" bindblur="getUserValue" />
+    <input type="password" class="password" placeholder="请输入密码" bindblur="getPassWordValue" />
+    <button class="subitm" hover-class="subitm-hover" form-type="submit">登录</button>
+  </form>
+  <!-- <text>{{userValue}}</text>
+  <text>{{logintText}}</text> -->
+  <!-- <text wx:if="{{userValue}}=='admin&&'{{passWordValue}}=='12345'"></text> -->
+</view>
